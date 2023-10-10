@@ -1,0 +1,33 @@
+html, body, div, h1, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    background-color: cadetblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: cadetblue;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+a {
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blueviolet;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: darkgreen;
+}
